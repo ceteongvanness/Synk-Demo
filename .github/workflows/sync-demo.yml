@@ -16,8 +16,5 @@ jobs:
         uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        with:
-          command:
-            snyk auth 80cc4ff6-c97d-4836-9e60-9521f0390ab5
 
 
