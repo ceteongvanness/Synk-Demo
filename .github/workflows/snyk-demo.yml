@@ -17,9 +17,3 @@ jobs:
       - run: npm i -g snyk
       - run: snyk auth '80cc4ff6-c97d-4836-9e60-9521f0390ab5'
       - run: snyk monitor
-          
-      - name: Use the Upload Artifact GitHub Action
-        uses: actions/upload-artifact@v2
-        with:
-          name: results
-          path: downloads
